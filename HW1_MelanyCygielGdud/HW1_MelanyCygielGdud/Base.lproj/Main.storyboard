@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW1_MelanyCygielGdud" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="phn-35-hZl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b23-Sv-aEB" userLabel="Card View">
+                                        <rect key="frame" x="13" y="0.0" width="294" height="319.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="K2L-5n-gz6">
+                                                <rect key="frame" x="20" y="68.5" width="254" height="231"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="4k9-lC-W04">
+                                                        <rect key="frame" x="0.0" y="0.0" width="254" height="45.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APO-nH-x98">
+                                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QLw-8N-g2d"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHQ-dV-gNm">
+                                                                <rect key="frame" x="67.5" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KV3-hV-3Ib"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AW-6M-eiu">
+                                                                <rect key="frame" x="135" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="id3-PG-Eq6"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1u2-EW-aQJ">
+                                                                <rect key="frame" x="202.5" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p44-C8-O6J"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="bj1-Hs-bpG">
+                                                        <rect key="frame" x="0.0" y="61.5" width="254" height="46"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diA-Cf-nFu">
+                                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hII-6Z-oPX"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXo-YM-2Tg">
+                                                                <rect key="frame" x="67.5" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcp-GC-Suk"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCo-ep-rdT">
+                                                                <rect key="frame" x="135" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8gi-sJ-Lko"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrB-dI-OC9">
+                                                                <rect key="frame" x="202.5" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U1u-7z-cgY"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="beJ-3K-4vA">
+                                                        <rect key="frame" x="0.0" y="123.5" width="254" height="45.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hY-xT-llf">
+                                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TQk-Vz-ZDE"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jf1-4y-6ph">
+                                                                <rect key="frame" x="67.5" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hjv-t5-scQ"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In6-xy-QYH">
+                                                                <rect key="frame" x="135" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jbq-yq-Uco"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIj-TW-ONO">
+                                                                <rect key="frame" x="202.5" y="0.0" width="51.5" height="45.5"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cfr-cI-JDf"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aeO-dl-csd">
+                                                        <rect key="frame" x="0.0" y="185" width="254" height="46"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJ8-Pw-yQD">
+                                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GAj-Ze-8Q8"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esh-30-ebd">
+                                                                <rect key="frame" x="67.5" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B9t-ER-atQ"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMr-mR-LyQ">
+                                                                <rect key="frame" x="135" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F7M-vd-dIT"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwW-Zj-XcW">
+                                                                <rect key="frame" x="202.5" y="0.0" width="51.5" height="46"/>
+                                                                <state key="normal" backgroundImage="vegetarian"/>
+                                                                <connections>
+                                                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GVK-WF-YIb"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fruit Salad!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVM-2U-MiP">
+                                                <rect key="frame" x="20" y="10" width="254" height="38.5"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="K2L-5n-gz6" secondAttribute="bottom" constant="20" id="6qR-Pl-6y7"/>
+                                            <constraint firstItem="K2L-5n-gz6" firstAttribute="leading" secondItem="b23-Sv-aEB" secondAttribute="leading" constant="20" id="TGY-Tf-aHr"/>
+                                            <constraint firstItem="nVM-2U-MiP" firstAttribute="top" secondItem="b23-Sv-aEB" secondAttribute="top" constant="10" id="glu-EW-vYD"/>
+                                            <constraint firstItem="K2L-5n-gz6" firstAttribute="top" secondItem="nVM-2U-MiP" secondAttribute="bottom" constant="20" id="kTh-6f-0Kv"/>
+                                            <constraint firstItem="K2L-5n-gz6" firstAttribute="height" secondItem="nVM-2U-MiP" secondAttribute="height" multiplier="6" id="tVl-be-QXc"/>
+                                            <constraint firstItem="nVM-2U-MiP" firstAttribute="leading" secondItem="b23-Sv-aEB" secondAttribute="leading" constant="20" id="u39-Fb-ztF"/>
+                                            <constraint firstAttribute="trailing" secondItem="K2L-5n-gz6" secondAttribute="trailing" constant="20" id="vAN-c4-IBM"/>
+                                            <constraint firstAttribute="trailing" secondItem="nVM-2U-MiP" secondAttribute="trailing" constant="20" id="xbN-OX-kf3"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tyt-Jj-5Ww" userLabel="Control View">
+                                        <rect key="frame" x="0.0" y="408.5" width="320" height="159.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7J-EN-PdE">
+                                                <rect key="frame" x="10" y="5" width="146" height="40"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer: 00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcc-1C-31n" userLabel="Clock">
+                                                <rect key="frame" x="10" y="35" width="210" height="79.5"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="29"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="mcc-1C-31n" firstAttribute="leading" secondItem="Tyt-Jj-5Ww" secondAttribute="leading" constant="10" id="Y3v-Ar-U4e"/>
+                                            <constraint firstItem="e7J-EN-PdE" firstAttribute="leading" secondItem="Tyt-Jj-5Ww" secondAttribute="leading" constant="10" id="ZNY-Um-orP"/>
+                                            <constraint firstItem="mcc-1C-31n" firstAttribute="top" secondItem="Tyt-Jj-5Ww" secondAttribute="top" constant="35" id="i6A-26-RV5"/>
+                                            <constraint firstItem="mcc-1C-31n" firstAttribute="height" secondItem="Tyt-Jj-5Ww" secondAttribute="height" multiplier="0.5" id="tHu-EC-gcY"/>
+                                            <constraint firstItem="e7J-EN-PdE" firstAttribute="top" secondItem="Tyt-Jj-5Ww" secondAttribute="top" constant="5" id="vEr-qR-7HS"/>
+                                            <constraint firstItem="e7J-EN-PdE" firstAttribute="height" secondItem="Tyt-Jj-5Ww" secondAttribute="height" multiplier="0.25" id="zCa-Nm-Wwm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Tyt-Jj-5Ww" secondAttribute="trailing" id="gHo-Tz-Swg"/>
+                                    <constraint firstItem="b23-Sv-aEB" firstAttribute="height" secondItem="Tyt-Jj-5Ww" secondAttribute="height" multiplier="2" id="qgO-hA-kr6"/>
+                                    <constraint firstItem="b23-Sv-aEB" firstAttribute="width" secondItem="Tyt-Jj-5Ww" secondAttribute="width" multiplier="0.917333" id="sfy-Tb-46J"/>
+                                </constraints>
+                                <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="phn-35-hZl" secondAttribute="bottom" id="GvC-cl-XRq"/>
+                            <constraint firstItem="phn-35-hZl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qz0-VN-2IH"/>
+                            <constraint firstItem="phn-35-hZl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dTo-ef-MUz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="phn-35-hZl" secondAttribute="trailing" id="wjY-CZ-Gl9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="clock_Label" destination="mcc-1C-31n" id="xRj-Sv-J4d"/>
+                        <outlet property="movesCounter_Label" destination="e7J-EN-PdE" id="uQM-Xn-dDk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.60714285714286" y="137.68115942028987"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vegetarian" width="64" height="64"/>
+    </resources>
+</document>
